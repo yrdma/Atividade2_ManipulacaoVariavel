@@ -2,19 +2,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     String nome = "Jão";
-    int id = 25;
-    double sal = 1300;
-    double desc = 1500;
+    int id = 25; //idade
+    double sal = 1300;// salario
+    double desc = 1500;// desconto no salario
     int meses = 12;
-    int prodComp = 5;
-    double valorComp = 3000;
+    int prodComp = 5;// produtos comprados
+    double valorComp = 3000;//valor comprado
 
 
 
-    double salAn = sal * meses;
-    double salLiq = salAn - desc;
-    double medValorGast = valorComp/prodComp;
-    double rest = salLiq - valorComp;
+    double salAn = sal * meses;// salAn = sálario anual
+    double salLiq = salAn - desc;// salLiq = sálario liquido
+    double medValorGast = valorComp/prodComp;// medValorGast = média Valor Gasto
+    double rest = salLiq - valorComp;// rest = restante
     String informacao = nome + "," + salLiq + "Isto é oque sobrou!!";
 
     System.out.println("Nome: " + nome);
